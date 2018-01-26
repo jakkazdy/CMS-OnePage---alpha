@@ -1,0 +1,178 @@
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 9;
+  height: 60px;
+  background-color: rgba(0, 0, 0, .92);
+}
+
+.logotype {
+  display: inline-block;
+  margin: 20px 10px;
+  float: left;
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+  font-size: 39px;
+}
+
+.color-red {
+  color: #df0000;
+}
+
+.m-li {
+  display: inline-block;
+  height: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.m-li.color-red-bg {
+  background-color: #df0000;
+}
+
+.m-ul {
+  display: inline-block;
+  margin-right: 2%;
+  float: right;
+}
+
+.m-link {
+  display: inline-block;
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.wall {
+  width: 100%;
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, .86);
+  color: #fff;
+}
+
+.wall.b-bg {
+  background-color: rgba(0, 0, 0, .97);
+}
+
+.body-bg {
+  padding-top: 60px;
+  background-image: url('../images/20150614_132237.jpg');
+  background-position: 50% 50%;
+  background-size: 2064px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+.zawartosc {
+  min-height: 200px;
+  margin-top: 0px;
+  padding: 10px 10px 30px;
+  text-align: center;
+}
+
+.zawartosc.kontakt-s {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  min-height: 400px;
+}
+
+.s-title {
+  border-left: 5px solid #df0000;
+  text-align: center;
+}
+
+.s-p {
+  text-align: center;
+}
+
+.s-p.left {
+  text-align: left;
+}
+
+.s-int {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  padding-top: 20px;
+  border-radius: 5px;
+  background-color: hsla(0, 0%, 100%, .3);
+  font-size: 18px;
+  text-align: center;
+}
+
+.s-int-title {
+  position: static;
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: -20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #df0000;
+  text-align: center;
+}
+
+.tel-text {
+  display: block;
+  padding-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.tel-dane {
+  display: block;
+  text-align: center;
+}
+
+.menu-smart {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .menu-smart {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    display: none;
+  }
+  .menu-smart {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: block;
+  }
+  .nav-smart {
+    background-color: #000;
+  }
+  .link-menu-smart {
+    display: block;
+    background-color: #d6d6d6;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 479px) {
+  .s-int-title {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    float: none;
+    clear: none;
+  }
+}

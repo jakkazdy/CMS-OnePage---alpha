@@ -1,0 +1,28 @@
+No siema.
+
+Stworzyłem szkielet, udało się dodać system URL z dawnego skryptu i działa dobrze tak więc... idziemy dalej!
+
+No... tak ze dodałem url'e ale zapomniałem o routingu.
+Dodałem go i połączyłem controllerem, myślę że na razie będzie.
+
+dobra bo pisze i pisze a tutaj nic.
+app.php sprawdza routing sprawdza url dziala.
+dalej app.php przekazuje dane do controllera view.php ktory ma tez swoja metode ktora na razie dziala jak chce...
+W sumie to nie wiem po co ona.
+Jedynie gdzie podstrony beda funkcjonowac to admin.
+Na stronie glownej jedynie bedzie odczytywac zmienne.
+Ale skoro juz dalem to niech rozróżniać czy ma przekierowac do admina czy na index.
+
+Dobra dodoaje panel administratora.
+Problem w tym że cały system logowania i utrzymania sessji jest do wypierdolenia bardzo ładnie mówiąc.
+	Zrobię szkielet Obiektowego użytkownika opartego na tym utrzymaniu sessji ale w najbliższym czasie go zmienię.
+
+Utknąłem. Chyba. Jestem na etapie wyświetlania danych strony. podstrony dzialaja wiec w teorii jedyne co musze to wywolac jedna z podstron. ALE! że ja mady chciałem w CP zrobić kilka styli to sie pogubilem. ale juz chyba wiem jak to zrobić.
+
+Robie logowanie! OD NOWA bo się idzie wkurwić normalnie!
+I działa pięknie!
+
+Teraz utworze header dla pa, prosty tylko z linkami.
+
+DOBRA! Dziala dodawanie i edytowanie podstron, usuwanie to blachostka. tak więc jakby nie było można myśleć o frontendzie!
+

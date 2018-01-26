@@ -1,0 +1,1 @@
+<p style="background:#000; color:#fff;"> PracowniaMZ.pl - CMS Onepage by WEB_space - <a href="index.php?a=admin">Panel administratora</a></p>

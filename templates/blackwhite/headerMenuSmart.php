@@ -1,0 +1,1 @@
+<a href="#<?=$Menu[$i]['name'];?>" class="w-nav-link link-menu-smart"><?=$Menu[$i]['nameMenu'];?></a>
